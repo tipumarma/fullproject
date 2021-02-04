@@ -1,0 +1,244 @@
+/* 
+font-family: 'PT Sans', sans-serif;
+*/
+
+
+/*common start*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #010101;
+}
+
+
+/*common end*/
+
+
+/*header start*/
+
+header {
+    background: #fcdb00;
+    padding: 20px 0;
+}
+
+.menu ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    padding: 0 57px !important;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+}
+
+.menu ul li a:hover {
+    color: white !important;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0 !important;
+}
+
+
+/*header end*/
+
+
+/*slider start*/
+
+.slider {
+    background: #fcdb00;
+    padding-bottom: 100px;
+}
+
+.cid {
+    bottom: -84px;
+}
+
+.cid li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s_content {
+    margin-top: 65px;
+}
+
+.s_content h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.s_content h2 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+
+.s_content p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+.s_icon li i {
+    margin-right: 25px;
+    font-size: 42px;
+    color: #010101;
+    transition: .3s;
+}
+
+.s_icon li i:hover {
+    color: white;
+}
+
+
+/*slider end*/
+
+
+/*feature start*/
+
+.feature {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.f_h1 {
+    margin-bottom: 18px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.f_p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+.f_icon {
+    font-size: 50px;
+}
+
+.f_text h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+
+.f_text p {
+    color: #898989;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+
+/*feature end*/
+
+
+/*contact start*/
+
+.contact {
+    background: #010101;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.contact .f_h1 {
+    color: #fcdb00;
+}
+
+.contact .f_p {
+    color: #898989;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.c_mail {
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: #898989;
+}
+
+.c_mail:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.c_submit {
+    background: #fcdb00;
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #010101;
+    border: none;
+}
+
+.c_submit:hover {
+    background: white;
+}
+
+.c_submit:focus {
+    outline: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.c_icon li i {
+    margin-right: 25px;
+    font-size: 42px;
+    color: #fcdb00;
+    transition: .3s;
+}
+
+.c_icon li:last-child i {
+    margin-right: 0;
+}
+
+.c_icon li:hover i {
+    color: white;
+}
+
+
+/*contact end*/
+
+
+/*footer start*/
+
+footer {
+    padding-bottom: 100px;
+    background: black;
+}
+
+.fo_1 {
+    color: white !important;
+}
+
+.fo_1 p {
+    margin: 0;
+    color: white !important;
+}
+
+.fo_1 p a {
+    color: white !important;
+}
+
+
+/*footer end*/
